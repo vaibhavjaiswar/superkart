@@ -18,8 +18,8 @@ export default async function Home() {
           <Image src='/images/mobile-banner1.png' fill alt="Mobile banner" />
         </div>
       </section>
-      <TrendingProductsSection />
-      <BestSellerProductsSection />
+      {/* <TrendingProductsSection /> */}
+      {/* <BestSellerProductsSection /> */}
       <section className="flex flex-col md:flex-row items-stretch md:gap-6 xl:gap-10 bg-neutral-200">
         <div className="pl-6 sm:pl-12 md:pl-16 xl:pl-36 pr-6 sm:pr-12 md:pr-0 pt-8 md:py-8 xl:py-12 flex-1 flex flex-col justify-center">
           <h2 className="text-3xl">Have a suggestion?</h2>
